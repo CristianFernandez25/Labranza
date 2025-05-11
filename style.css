@@ -42,6 +42,7 @@ div {
     color: black;
 }
 article{
+    align-items: center;
     text-align: justify;
     background-color: rgba(21, 156, 210, 0.9);
     padding: 20px;
