@@ -83,9 +83,9 @@ button:hover {
      transform: scale(1.1);
 }
 
-.imagenChoconta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imagenChoconta {
+    display: block;
     margin: 20px auto;
+    max-width: 90%;
+    height: auto;
 }
