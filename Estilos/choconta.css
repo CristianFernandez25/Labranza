@@ -1,3 +1,17 @@
+body {
+    background: url('../imagenes/fondoChoconta.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
 #logo{
     width: 300px;
     height: 110px;
@@ -7,60 +21,51 @@
 
 }
 
-
-body::before {
-    content: "";
-    position: fixed;
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(33, 214, 97, 0.9);
     width: 100%;
-    height: 100%;
-    background-image: url(../Recursos/Fondo.webp);
-    background-size: cover;
-    background-position: center;
-    filter: opacity(0.5); 
-    z-index: -1;
-}
-
-
-.Choconta {
+    height: 80px;
     position: fixed;
-    top: 10px; 
-    left: 10px;
-    margin-top: 220px;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
-.nombreChoconta {
-    position: absolute; 
-    top: -25%; 
-    left: 40%; 
-    transform: translateX(-50%); 
-    text-align: center;
-    color: black; 
-    font-weight: bold;
-    font-size: 125px;
-    padding: 5px 10px;
-    border-radius: 8px;
-}
-.imagenChoconta{
-    width: 100%;
-}
-section {
-    background: rgba(0, 255, 208, 0.7);
+
+div {
+    text-align: justify;
+    background-color: rgba(33, 214, 97, 0.9);
     padding: 20px;
     margin: 20px auto;
-    margin-left: 500px;
-    margin-right: 50px;
-    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     color: black;
 }
-.content {
-    font-size: 20px;
+
+article{
+    align-items: center;
+    text-align: center;
+    background-color: rgba(33, 214, 97, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color: black;
 }
+
 button {
     position: fixed;
     top: 10px;
     left: 10px;
-    background: linear-gradient(to right, #00ffd5, #00c79f);
+    background-color: rgba(12, 153, 62, 0.9);
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -78,8 +83,9 @@ button:hover {
      transform: scale(1.1);
 }
 
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color:  rgba(0, 255, 208, 0.7);
+.imagenChoconta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
 }
